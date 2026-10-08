@@ -1,0 +1,16 @@
+{
+  "name": "aromamatch",
+  "version": "1.0.0",
+  "description": "AromaMatch — Sistema de soporte a la decisión para la selección de perfumes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "reset-db": "node server.js --reset"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
